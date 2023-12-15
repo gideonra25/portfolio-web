@@ -63,7 +63,7 @@
                 href="mailto:gideonnoedigp2504@gmail.com" class="mouse-sm" itemprop="email">gideonnoedigp2504@gmail.com</a>.
             </p>
             <ActionButton to="/contact" data-aos="fade-up" class="d-none d-lg-block">
-              <i class="fa-sharp fa-solid fa-comment"></i>
+              <i class="fa-solid fa-comment"></i>
               Let's Chat
             </ActionButton>
           </div>
