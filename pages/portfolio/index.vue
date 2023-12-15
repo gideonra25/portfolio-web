@@ -8,7 +8,7 @@
         <div class="col-auto d-flex flex-row align-items-center">
 
           <!-- Back to Home -->
-          <NuxtLink class="back-link mouse-md" to="/"><i class="fa-solid fa-reply fa-2x pe-3"></i>Home
+          <NuxtLink class="back-link mouse-md" to="/"><i class="fa-solid fa-chevron-left fa-2x pe-3"></i>Home
           </NuxtLink>
 
           <div v-if="portfolioData">
