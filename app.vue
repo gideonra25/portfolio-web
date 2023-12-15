@@ -139,11 +139,10 @@ useHead({
     },
     {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'},
   ],
-  // script: [
-  //   {
-  //     src="https://kit.fontawesome.com/9f47c46af7.js", async: true, defer: true
-  //   }
-  // ],
+  script: [
+    {
+      src="https://kit.fontawesome.com/9f47c46af7.js", async: true, crossorigin: 'anonymous'
+    }
+  ],
 });
 </script>
-<script src="https://kit.fontawesome.com/9f47c46af7.js" crossorigin="anonymous"></script>
