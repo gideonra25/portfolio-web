@@ -9,10 +9,6 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/app.scss"],
 
-  css: [
-    '@fortawesome/fontawesome-svg-core/styles.css'
-  ],
-
   vite: {
       server: {
           hmr: {
