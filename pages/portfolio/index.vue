@@ -8,7 +8,7 @@
         <div class="col-auto d-flex flex-row align-items-center">
 
           <!-- Back to Home -->
-          <NuxtLink class="back-link mouse-md" to="/"><i class="fa-solid fa-arrow-up-left fa-2x pe-3"></i>Home
+          <NuxtLink class="back-link mouse-md" to="/"><i class="fa-solid fa-reply fa-2x pe-3"></i>Home
           </NuxtLink>
 
           <div v-if="portfolioData">
@@ -20,9 +20,9 @@
         <div class="col-auto position-relative">
           <!-- Pagination Controls -->
           <div class="pagination pe-5 pe-xl-6 d-none d-lg-flex" v-if="portfolioData">
-            <i class="fa-light fa-angle-left fa-3x pagination--prev mouse-md"
+            <i class="fa-light fa-angles-left pagination--prev mouse-md"
                @click.prevent="paginatePrev" :class="{'disabled': selected === 0}"></i>
-            <i class="fa-light fa-angle-right fa-3x pagination--next mouse-md"
+            <i class="fa-light fa-angles-right pagination--next mouse-md"
                @click.prevent="paginateNext" :class="{'disabled': selected === portfolioData.length - 1}"></i>
           </div>
         </div>
