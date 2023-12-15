@@ -6,7 +6,7 @@
     <div id="bottom-bar" class="container-xxxl">
       <div class="row mb-3 mb-lg-5 mb-xxl-7 justify-content-between align-items-end">
         <div class="col-11 col-sm-7 col-xxl-5 col-xxxl-5">
-          <i class="fa-sharp fa-solid fa-lasso-sparkles lead-icon mb-4 mb-lg-5 mouse-md" aria-hidden="true"></i>
+          <font-awesome-icon :icon="['fass', 'lasso-sparkles']" />
           <h1 class="visually-hidden">{{ heading }}</h1>
           <h1 class="lead mouse-lg" v-once>
             <span class="heading-char" aria-hidden="true"
