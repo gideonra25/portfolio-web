@@ -15,12 +15,12 @@
             </span>
           </h1>
           <ActionButton to="/portfolio" data-aos="fade-right" class="d-block d-lg-none mt-4 mb-4">
-            Explore <i class="fa-sharp fa-solid fa-arrow-right-long fa-lg ps-2"></i>
+            Explore <i class="fa-solid fa-arrow-right-long fa-lg ps-2"></i>
           </ActionButton>
           <NuxtLink class="back-link mouse-md d-inline-block d-lg-none me-5" to="/about">About<i
-              class="fa-sharp fa-solid fa-arrow-up-right fa-lg ps-2"></i></NuxtLink>
+              class="fa-solid fa-arrow-up-right fa-lg ps-2"></i></NuxtLink>
           <NuxtLink class="back-link mouse-md d-inline-block d-lg-none" to="/contact">Contact<i
-              class="fa-sharp fa-regular fa-arrow-up-right fa-lg ps-2"></i></NuxtLink>
+              class="fa-regular fa-arrow-up-right fa-lg ps-2"></i></NuxtLink>
           <StatusIndicator class="d-block mt-1 mt-lg-0 py-3 d-lg-none"/>
         </div>
         <div class="col-auto">
