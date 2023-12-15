@@ -2,7 +2,7 @@
 
 ![Homepage Screenshot](public/cover.jpg)
 
-This repo contains the latest code for url_soon. It's a Nuxt 3 project that centers around a WebGL visualization that ebs and flows into each page.
+This repo contains the latest code for https://gideonrap.vercel.app. It's a Nuxt 3 project that centers around a WebGL visualization that ebs and flows into each page.
 
 I've made the code open-source, with the obvious caveat that it's meant to act as a reference for learning and developing your own creative website, and that you cannot clone it and pretend to be me.
 
