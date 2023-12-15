@@ -4,7 +4,7 @@
     <div class="container-xxxl">
       <div class="row mt-0 mt-lg-6 justify-content-end">
         <div class="col-12 col-md-8 col-lg-7 col-xl-5 col-xxl-4 mb-4">
-          <NuxtLink class="back-link mouse-md mt-4 mt-lg-0" to="/"><i class="fa-sharp fa-solid fa-arrow-up-left fa-2x pe-3"></i>Back
+          <NuxtLink class="back-link mouse-md mt-4 mt-lg-0" to="/"><i class="fa-solid fa-chevron-left fa-2x pe-3"></i>Back
           </NuxtLink>
           <CodeTag class="mt-5 mb-3">contact</CodeTag>
           <h1 class="mb-4">Let's Chat</h1>
@@ -14,7 +14,7 @@
           <h3 class="mb-3">Collaboration Session</h3>
           <p class="mb-4">If you want to dive more into project specifics, you can contact me for a further meeting, and see if we're a good fit.</p>
           <ActionButton to="https://wa.me/6289648410773" target="_blank">
-            <i class="fa-sharp fa-solid fa-phone fa-lg"></i>
+            <i class="fa-solid fa-phone fa-lg"></i>
             Contact Me
           </ActionButton>
         </div>
