@@ -23,7 +23,7 @@
     <!-- Video -->
     <NuxtLink :to="currentPortfolioItem['slug']" target="_blank">
       <div class="project-cover__video-container">
-        <i class="fa-solid fa-chevron-right fa-3x open-arrow"></i>
+        <i class="fa-solid fa-arrow-up-right-from-square fa-3x open-arrow"></i>
         <video ref="video" :style="elementStyle" class="project-cover__video mouse-md" loop="true" muted
                :autoplay="isFocused ? true : null" playsinline :poster="currentPortfolioItem['cover']">
           <source :src="currentPortfolioItem['videoWebm']" type="video/webm">
