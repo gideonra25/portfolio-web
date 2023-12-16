@@ -37,7 +37,7 @@ useHead({
     {
       hid: 'theme-color',
       name: 'theme-color',
-      content: '#27c4ba'
+      content: '#12A9B2'
     },
     {
       hid: 'robots',
