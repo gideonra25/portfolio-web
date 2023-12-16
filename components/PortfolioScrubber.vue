@@ -82,7 +82,7 @@ ol.portfolio-links {
     display: block;
     color: white;
     font-weight: 700;
-    font-family: "Font Awesome 6 Sharp", sans-serif;
+    font-family: "Font Awesome 6 Classic", sans-serif;
     position: absolute;
     font-size: 16px;
     left: 0;
