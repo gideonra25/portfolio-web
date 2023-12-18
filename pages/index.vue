@@ -18,9 +18,9 @@
             Explore <i class="fa-solid fa-arrow-right-long fa-lg ps-2"></i>
           </ActionButton>
           <NuxtLink class="back-link mouse-md d-inline-block d-lg-none me-5" to="/about">About<i
-              class="fa-solid fa-location-arrow fa-lg ps-2"></i></NuxtLink>
+              class="fa-solid fa-magnifying-glass-arrow-right fa-lg ps-2"></i></NuxtLink>
           <NuxtLink class="back-link mouse-md d-inline-block d-lg-none" to="/contact">Contact<i
-              class="fa-solid fa-location-arrow fa-lg ps-2"></i></NuxtLink>
+              class="fa-solid fa-magnifying-glass-arrow-right fa-lg ps-2"></i></NuxtLink>
           <StatusIndicator class="d-block mt-1 mt-lg-0 py-3 d-lg-none"/>
         </div>
         <div class="col-auto">
