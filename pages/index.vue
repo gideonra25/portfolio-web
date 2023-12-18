@@ -105,7 +105,7 @@ const headingChars = heading.split('');
 
   @media screen and (max-width: 992px) {
     font-size: 28px;
-    font-weight: 400 !important;
+    /* font-weight: 400 !important; */
   }
 }
 
