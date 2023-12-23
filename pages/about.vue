@@ -5,8 +5,7 @@
       <div class="row mt-0 mt-lg-6">
         <main class="d-flex flex-column" itemscope itemtype="https://schema.org/Person">
           <div class="col-12 col-md-8 col-lg-7 col-xl-6 col-xxl-5 mb-4">
-            <NuxtLink class="back-link mouse-md mt-4 mt-lg-0 mb-5 mb-lg-0 d-block text-end text-md-start" to="/">Back<i
-                class="fa-sharp fa-solid fa-arrow-up-right fa-2x ps-3"></i></NuxtLink>
+            <NuxtLink class="back-link mouse-md mt-4 mt-lg-0 mb-5 mb-lg-0 d-block text-end text-md-start" to="/">Back<i class="fa-solid fa-chevron-right fa-2x ps-3"></i></NuxtLink>
             <CodeTag class="mt-5 mb-5 d-none d-lg-block">about</CodeTag>
             <div class="d-flex flex-row align-items-center mb-5">
               <img src="~assets/images/headshot.jpg" alt="Hey I'm Simon" class="headshot me-4 me-lg-5">

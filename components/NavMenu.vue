@@ -83,7 +83,7 @@ const navClasses = computed(() => {
     gap: 30px;
 
     @media screen and (max-width: 1400px) {
-      gap: 20px;
+      gap: 15px;
     }
 
     a{
@@ -113,7 +113,7 @@ const navClasses = computed(() => {
 
       &:nth-child(2){
         transition: transform 0.7s cubic-bezier(0.7, 0, 0, 1);
-        transform: translate(min(-60vw, -700px));
+        transform: translate(min(-50vw, -700px));
       }
 
       &:nth-child(3){
