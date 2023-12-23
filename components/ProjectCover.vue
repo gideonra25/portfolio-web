@@ -5,7 +5,7 @@
     <!-- Title & Stack -->
     <div class="title-bar row justify-content-between align-items-end mb-3 flex-nowrap">
       <div class="col-auto">
-        <h2 class="lead pb-1 pe-3 d-inline-block mb-0 ps-4 ps-0" style="color: #F2F2F2">{{ displayIndex }}.</h2>
+        <h2 class="ind pb-1 pe-3 d-inline-block mb-0 ps-4 ps-0" style="color: #F2F2F2">{{ displayIndex }}.</h2>
         <div class="d-inline-block">
           <span class="project-cover__type text-small mb-0 d-block">{{ currentPortfolioItem["type"] }}</span>
           <h2 class="project-cover__title mb-0">{{ currentPortfolioItem["title"] }}</h2>
@@ -125,6 +125,13 @@ watch(() => props.isFocused, (isFocused) => {
     width: calc(100vw - 60px);
     transform: scale(0.8);
   }
+}
+
+.ind {
+  font-family: "JetBrains Mono", monospace;
+  @include font-size(2rem);
+  @include rfs(1.2rem, line-height);
+  font-weight: 600;
 }
 
 .project-cover__type {
