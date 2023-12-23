@@ -33,7 +33,7 @@ const {width} = useWindowSize();
 const navClasses = computed(() => {
   return {
     'nav-container': true,
-    'nav-container--open': y.value < 180 && x.value > Math.min((width.value / 2), width.value - 800)
+    'nav-container--open': y.value < 180 && x.value > Math.min((width.value / 2), width.value - 1000)
   }
 });
 
